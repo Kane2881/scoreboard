@@ -12,12 +12,20 @@ body {
 .wrapper {
   background-color: rgb(27, 27, 100);
   width: 90%;
-  max-width: 600px;
+  max-width: 500px;
   display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
   justify-content: center;
   gap: 1rem;
   margin: 2rem auto;
   padding: 2rem;
+}
+
+div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 h1 {
@@ -46,10 +54,17 @@ h1 {
 }
 
 .btn {
-  color: inherit;
-  background-color: inherit;
+  color: white;
+  background-color: rgb(27, 27, 100);
   border: 1px solid white;
   border-radius: 0.25rem;
   padding: 0.5rem;
   cursor: pointer;
+}
+
+.btn-reset {
+  font-size: 1.5rem;
+  max-width: 300px;
+  display: block;
+  margin-inline: auto;
 }
