@@ -31,3 +31,10 @@ function guestPlusThree() {
   guestScore += 3;
   guestScoreEL.textContent = guestScore;
 }
+
+function resetScore() {
+  homeScore = 0;
+  homeScoreEL.textContent = homeScore;
+  guestScore = 0;
+  guestScoreEL.textContent = guestScore;
+}
